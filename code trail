@@ -1,4 +1,69 @@
-print('this is my firt')
+print('this is my first')
 print(5+2-5)
 print(5+2*5)
 print((5+2)*5)
+print(100/3)
+print(100//3)#print wihout decimals
+print(2**3)#** is 2 power
+print(100%7)#2
+print(100%9)#1
+print(2**3+2*3)#14
+print((2**3)+2*3)#14
+
+print((2**3+2)*3)#30
+#identifiers -variables-ref var
+Door_no=15
+print(Door_no)
+doo4rno=15.
+print(doo4rno)
+doorno="pranesh"
+print(doorno)
+print(100>50)
+
+#NO START WITH NUMBERS
+_who_="ezhil"
+print(_who_)
+#rules no spl char allowed , no space is allowed, under scored is allowed in start mid end
+#no is allowed exot beggning
+#case sensitive
+pranesh= 11
+print(pranesh)
+PRANESH=10
+print(pranesh)#case sesi
+
+#DATATYPES:
+#int
+#float
+#complex
+#bool
+#str
+#bytes
+#bytearray
+#range
+#list
+#set
+#frozenset
+#tuple
+#dict
+#None
+sub=17654
+print(sub)
+print(type(sub))
+sub="ezhil"
+print(type(sub))
+sub=True
+print(type(sub))
+
+sub=17654
+print(sub)
+print(id(sub))#adress
+sub="ezhil"
+print(id(sub))
+sub=True
+print(id(sub))
+
+
+sub="ezhil"
+print(len(sub))#5
+
+
