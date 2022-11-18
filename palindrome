@@ -1,0 +1,12 @@
+#panlindrome
+ezhil=input("enter the value")
+l=len(ezhil)-1
+don=ezhil[l::-1]
+if ezhil==don:
+    print("true")
+else:
+
+    print("false")
+
+
+
