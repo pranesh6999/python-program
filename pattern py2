@@ -1,0 +1,94 @@
+#pattern programs(increasing triangle)
+'''
+n=5
+for i in range(n):
+    for j in range(i+1):
+        print("#",end='')
+    print("")
+#(decreasing triangle)
+n=5
+for i in range(n):
+    for j in range(i,n):
+        print("#",end='')
+    print('')
+#right triangle
+n=5
+for i in range(5):
+    for j in range(i,n):
+        print(" ",end='')
+    for j in range(i+1):
+        print("#",end='')
+    print('')
+#left triangle
+n=5
+for i in range(n):
+    for j in range(i+n):
+        print(" ",end='')
+    for j in range(i,n):
+        print("#",end='')
+    print('')
+#uphill
+n=5
+for i in range(n):
+    for j in range(i,n):
+        print(" ",end='')
+    for j in range(i):
+        print("#",end='')
+    for j in range(i+1):
+        print("#",end='')
+    print('')
+#downhill
+n=5
+for i in range(n):
+    for j in range(i+1):
+        print(" ",end='')
+    for j in range(i,n-1):
+        print("#",end='')
+    for j in range(i,n):
+        print("#",end='')
+    print('')
+#diamond
+n=5
+for i in range(n-1):
+    for j in range(i,n):
+        print(" ",end='')
+    for j in range(i):
+        print("#",end='')
+    for j in range(i+1):
+        print("#",end='')
+    print('')
+for i in range(n):
+    for j in range(i+1):
+        print(" ",end='')
+    for j in range(i,n-1):
+        print("#",end='')
+    for j in range(i,n):
+        print("#",end='')
+    print('')
+#triangle
+n=5
+for i in range(n):
+    for j in range(i,n):
+        print(" ",end='')
+    for j in range(i):
+        print("#",end='')
+    for j in range(i+1):
+        print("#",end='')
+    print('')
+#twohill
+'''
+n=5
+for i in range(n):
+    for j in range(i,n):
+        print(" ",end='')
+    for j in range(i):
+        print("#",end='')
+    for j in range(i+1):
+        print("#",end='')
+    for j in range(i,n*2):
+        print(" ",end='')
+    for j in range(i):
+        print("#",end='')
+    for j in range(i):
+        print("#",end='')
+    print('')
