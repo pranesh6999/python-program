@@ -15,3 +15,10 @@ def fact(n):
 n=int(input("enter the number :"))
 result=fact(n)
 print("fact of",n,"is",result)
+
+#loop in factorial
+n=int(input("enter the number :"))
+result=1
+for i in range(n,0,-1):
+    result=result*n
+print("the result of",n,"is",result)
