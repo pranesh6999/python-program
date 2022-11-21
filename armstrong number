@@ -1,0 +1,11 @@
+#armstrong number
+for i in range(1001):
+    p=i
+    result=0
+    n=len(str(i))
+    while (i!=0):
+        digit=i%10
+        result=result+digit**n
+        i=i//10
+    if p==result:
+        print(p)
