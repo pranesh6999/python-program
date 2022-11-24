@@ -1,0 +1,53 @@
+#reverse string using slicing operator:hsenarp
+
+s="pranesh"
+output=s[ ::-1]
+print(output)
+
+#reverse string using reversed function:hsenarp
+
+s="pranesh"
+p=reversed(s)
+output=''.join(p)
+print(output)
+
+#reverse string using coding:hsenarp
+
+s='pranesh'
+output=""
+i=len(s)-1
+while i>=0:
+    output=output+s[i]
+    i=i-1
+print(output)
+    
+
+#reverse word using split operator:brother my is ezhil
+s="ezhil is my brother"
+l=s.split()
+l1=l[::-1]
+output=' '.join(l1)
+print(output)
+
+#reverse internal content of each word: lihze si ym rehtorb
+s='ezhil is my brother'
+l=s.split()
+l1=[]
+for i in l:
+    l1.append(i[::-1])
+    output=' '.join(l1)
+print(output)
+
+#reverse internal content of every second word:ezhil si my rehtorb
+s='ezhil is my brother'
+l=s.split()
+i=0
+l1=[]
+while i<len(l):
+    if i%2==0:
+        l1.append(l[i])
+    else:
+        l1.append(l[i][::-1])
+    i+=1
+    output=' '.join(l1)
+print(output)
