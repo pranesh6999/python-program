@@ -135,3 +135,22 @@ for i in range (0,n):
         else:
             print(" ",end='')
     print('')
+    
+    
+p     h
+ r   s 
+  a e  
+   n   
+  a e  
+ r   s 
+p     h
+num=input("enter the odd length name:")
+leng=len(num)
+for i in range (leng):
+    for j in range(leng):
+        if (i==j) or (i+j==leng-1):
+            print((num[j]),end='')
+        else:
+            print(" ",end='')
+    print()
+
