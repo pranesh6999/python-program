@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Csharp_1
+{
+    internal class Program
+    {
+   
+
+        static void Main(string[] args)
+        {
+            int Cread, Pread, amt, unit, rate;
+            Char type;
+            Console.Write("enter the Cread :");
+            Cread = int.Parse(Console.ReadLine());
+            Console.Write("enter the Pread :");
+            Pread = int.Parse(Console.ReadLine());
+            unit = Math.Abs(Cread - Pread);
+            Console.WriteLine("enter the type");
+            type = Convert.ToChar(Console.ReadLine());
+            switch(type)
+            {
+                case 'd':
+                    rate = 2;
+                    break;
+
+                case'c':
+                    rate = 4;
+                    break;
+
+                case'i':
+                    rate = 6;
+                    break;
+                default:
+                    Console.WriteLine("invalid input");
+                    rate = 0; 
+                    break;
+
+            }
+            amt = unit * rate;
+            Console.WriteLine($"the eb amt is :{amt}");
+        }
+    } 
+}
